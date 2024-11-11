@@ -1,3 +1,9 @@
+/*
+Name: Kashif Mehmood
+Roll No: 24K-2539
+Date: 25/10/24
+Desc: Finding the frequency of characters in a string
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -12,7 +18,7 @@ int main() {
     }
 
     return 0;
-}
+}//End main
 //Function Defination
 void frequency(const char *slogan) {
     int frequencies[128] = {0};
@@ -41,4 +47,4 @@ void frequency(const char *slogan) {
         i++;
     }
     printf("}\n");
-}
+} //End function
