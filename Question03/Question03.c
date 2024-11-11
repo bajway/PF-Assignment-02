@@ -1,3 +1,7 @@
+/*Name: Kashif Mehmood
+Roll No: 24K-2539
+Date: 25/10/24
+Desc: Compressing words*/
 #include<stdio.h>
 #include<string.h>
 void compress(char word[][100], int total_word);
@@ -19,7 +23,7 @@ int main(){
     }
     compress(word ,total_words) ;
     return 0;
-}
+} //End main
 void compress(char word[][100], int total_word){
     int length, count=1;
     int total_reduced_count;
@@ -50,4 +54,4 @@ void compress(char word[][100], int total_word){
             printf("%s\n", compressed_word[i]);
     }
     printf("Number of characters reduced:");
-}
+} //End compress
