@@ -1,6 +1,12 @@
+/*
+Name: Kashif Mehmood
+Roll No: 24K-2539
+Date: 25/10/24
+Desc: Number conversion calculator
+*/
 #include<stdio.h>
-#include<math.h>
-#include<string.h>
+#include<math.h>//For pow function
+#include<string.h>//For using functions of string
 #include<ctype.h> //Using to convert letters into upper-case
 //Functions prototypes
 int binary_to_decimal(int);
@@ -47,6 +53,12 @@ int main(){
     hexadecimal_to_decimal(hex_number);
     break;
     }
+    case 5:
+        
+    break;
+    case 6:
+    printf("Enter the valid number from menu");
+    break;
 }
 //End main
 //Function Definations
