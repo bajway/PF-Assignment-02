@@ -1,5 +1,8 @@
+/*Name: Kashif Mehmood
+  Roll no: 
+  Date: 25/10/24
+  desc: printing histogram vertical and horizontal*/
 #include<stdio.h>
-
 void histogram( int );
 int main()
 {
